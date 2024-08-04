@@ -1,0 +1,20 @@
+[
+    { "name": "AddChestItem", "usage": "Adds an item to a given map chest. Usage: AddChestItem(Map ID, X coordinate, Y coordinate, Item ID, amount);" },
+    { "name": "AddMapItem", "usage": "Adds an item to a given map location. Usage: AddMapItem(Map ID, X coordinate, Y coordinate, Item ID, amount);" },
+    { "name": "AddNpcChat", "usage": "Adds an NPC chat balloon during a given state. Usage: AddNpcChat(Npc Quest ID, 'message string');" },
+    { "name": "AddNpcInput", "usage": "Adds a link option in the dialog window. Usage: AddNpcInput(Npc Quest ID, Input ID, 'message string');" },
+    { "name": "AddNpcPM", "usage": "Adds a simple message to the dialog window. Usage: AddNpcPM('name string', 'message string');" },
+    { "name": "AddNpcText", "usage": "Adds a simple message to the dialog window. Usage: AddNpcText(Npc Quest ID, 'message string');" },
+    { "name": "EmptyChests", "usage": "Removes all items in all chests on a given map. Usage: EmptyChests(Map ID);" },
+    { "name": "End", "usage": "Ends the quest for good. Displays Quest on History as Completed. Usage: End();" },
+    { "name": "GiveBankItem", "usage": "Rewards a player with an item stored directly in their bank locker. Usage: GiveBankItem(Item ID, amount);" },
+    { "name": "GiveExp", "usage": "Rewards a player with experience points. Usage: GiveExp(amount);" },
+    { "name": "GiveItem", "usage": "Rewards a player with an item. Usage: GiveItem(Item ID, amount);" },
+    { "name": "GiveKarma", "usage": "Rewards karma to a player. Usage: GiveKarma(amount);" },
+    { "name": "GiveStat", "usage": "Adds an amount to the given stat of the player. Usage: GiveStat(Stat, amount);" },
+    { "name": "GiveRandomItem", "usage": "Rewards a player with an item chosen at random from a random bracket. Usage: GiveRandomItem(RandomBracketName);" },
+    { "name": "LoadMap", "usage": "Loads a map or alternate version of a map. Usage: LoadMap(Map ID);" },
+    { "name": "PlayEffect", "usage": "Plays a special effect on a player. Usage: PlayEffect(Effect ID);" },
+    { "name": "PlaySound", "usage": "Plays a sound effect. Usage: PlaySound(Sound ID);" },
+    { "name": "PlayMusic", "usage": "Plays a MIDI music file. Usage: PlayMusic(Music ID);" }
+]
